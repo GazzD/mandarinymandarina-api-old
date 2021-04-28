@@ -13,6 +13,6 @@ class HelloWorldController extends Controller
 
     public function sayHello(Request $request, $id)
     {
-        return $id . '.- Hello ' . $request->input('name');
+        return $id . '.- Hi ' . $request->input('name');
     }
 }
