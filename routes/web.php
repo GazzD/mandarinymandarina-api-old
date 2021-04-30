@@ -18,7 +18,7 @@ $router->get('/', function () use ($router) {
 });
 
 
-$router->get('/hello-world', ['uses' => 'HelloWorldController@helloWorld']);
+$router->post('/subscribe', ['uses' => 'MailchimpController@subscribeToNewsletter']);
 
 $router->post('/contact', ['uses' => 'SendinblueController@sendContactEmail']);
 

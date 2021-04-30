@@ -8,7 +8,9 @@
         "php": "^7.3|^8.0",
         "guzzlehttp/guzzle": "^7.3",
         "laravel/lumen-framework": "^8.0",
-        "sendinblue/api-v3-sdk": "7.x.x"
+        "mailchimp/marketing": "^3.0",
+        "sendinblue/api-v3-sdk": "7.x.x",
+        "spatie/laravel-newsletter": "^4.9"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
